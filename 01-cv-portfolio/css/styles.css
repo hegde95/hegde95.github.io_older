@@ -276,6 +276,17 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
 	
+.screen{
+position: relative;
+}
+.innerdiv {
+position: fixed;
+bottom: 0;
+right: 0;
+z-index: 4;
+
+}
+
 	
 /* ---------------------------------
 12. FOOTER
