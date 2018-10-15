@@ -286,7 +286,20 @@ right: 0;
 z-index: 10;
 
 }
+.author_bio_toggle_wrapper    
+{
+    background: #28023D;
+	margin-right: 100px;	
+	font-size :20px
+}
 
+#author_bio_wrap 
+{
+    margin-top: 0px;  
+    margin-bottom: 250px; 
+    background: gray;
+    width: auto; height: 50px;
+}
 	
 /* ---------------------------------
 12. FOOTER

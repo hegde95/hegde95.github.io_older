@@ -1,4 +1,23 @@
-
+jQuery(document).ready(function($)
+{
+  
+  $("#author_bio_wrap_toggle").click(function()
+  {
+    
+    $("#author_bio_wrap").slideToggle( "slow");
+    
+	  if ($("#author_bio_wrap_toggle").text() == "Collapse Chat Window")
+      {			
+        $("#author_bio_wrap_toggle").html("Re-Open Chat Window")
+      }
+	  else 
+      {		
+        $("#author_bio_wrap_toggle").text("Collapse Chat Window")
+      }
+    
+  });  
+  
+});
 (function ($) {
 
     "use strict";
